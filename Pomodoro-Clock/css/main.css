@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body{
+  font-family: 'Rajdani',sans-serif !important;
+  background: #ffffff !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ffffff , #909090) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ffffff, #909090) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ffffff, #909090) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ffffff , #909090) !important; /* Standard syntax (must be last) */
+  -webkit-font-smoothing: antialiased;
+}
+button{
+  text-decoration: none;
+  border: none;
+  background: inherit;
+  height: 50px;
+  width: 50px;
+}
+button:focus{
+  outline: 0;
+}
+h3{
+  margin: 25px 0px 0px 0px !important;
+  padding: 10px 25px 0px 25px !important;
+  display: inline;
+}
+.clock-wrapper{
+  margin: 100px;
+}
+
+.clock{
+  height: 45vh;
+  width: 55vw;
+  padding: 25px;
+  margin: auto;
+  z-index: 0;
+}
+
+.buttonWrapper{
+  z-index: 1;
+  display: inline;
+}
+.values{
+  padding: 25px;
+}
+.nameBox{
+  display: inline;
+  height: 15vh;
+  width: 55vw;
+}
+.names h3{
+  margin: 55px !important;
+}
+.buttons{
+  margin: 10px 0px 25px 0px !important;
+}
+#break{
+  margin: 0px 20px 0px 20px !important;
+  padding: 10px !important;
+  display: inline;
+}
+#session{
+  margin: 0px 20px 0px 20px !important;
+  padding: 10px !important;
+  display: inline;
+}
+#time{
+  margin: 25px;
+  font-size: 35pt;
+}
+#plusB{
+  font-size: 30pt;
+  margin: 0px 15px 0px 5px;
+}
+#minusB{
+  font-size: 30pt;
+  margin: 0px 5px 0px 15px;
+}
+#plusS{
+  font-size: 30pt;
+  margin: 0px 15px 0px 5px;
+}
+#minusS{
+  font-size: 30pt;
+  margin: 0px 5px 0px 15px;
+}

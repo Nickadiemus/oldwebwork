@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "cmlprxnl",
+    "password": "umoBuXsyHZZO0iEm46D4VYhb9myMaWzC",
+    "database": "cmlprxnl",
+    "host": "baasu.db.elephantsql.com",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "cmlprxnl",
+    "password": "umoBuXsyHZZO0iEm46D4VYhb9myMaWzC",
+    "database": "cmlprxnl",
+    "host": "baasu.db.elephantsql.com",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Nick",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" >
+  <title>Brunch</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/vendor.js"></script>
+  <script src="/app.js"></script>
+  <script>require('initialize');</script>
+</head>
+<body>
+  <!-- Main Section -->
+  <div class="container">
+    <div class="mainWrapper">
+      <!-- Title Wrapper -->
+      <div class="titleWrapper">
+        <div class="row text-center headTitle animated slideInDown">
+          <!-- twich SVG -->
+          <svg aria-label="Twitch - Main Page" height="84px" role="img" version="1.1" viewBox="0 0 94 32" width="142px" x="0px" y="0px">
+          <title>Twitch</title>
+          <desc>Main Page</desc>
+          <path clip-rule="evenodd" d="M88,5h-6V0h-9l-6,5h-5.5L59,7.5V5h-5V0H36v5H16l-5-5H0v22l5,5.25L14,32h6v-1.5l3,1.5h12l2-3l1,3h7v-3l3,3h8l0.5-3l2.5,3h10l3-3v3h4l3-3v3h7l7-6V10L88,5z M13,13H8v6h5v6H6l-4-4V2h6v5h5V13z M36,21.5L32.5,25H15V7h6v12h2V7h6v12h2V7h5V21.5z M44,25h-6V7h6V25z M44,5h-6V2h6V5z M57,13h-5v6h5v6h-7l-4-4V2h6v5h5V13z M72,13h-7v6h7v6h-9l-4-4V11l4-4h9V13z M91,25h-6V13h-5v12h-6V2h6v5h7l4,4V25z" fill-rule="evenodd"></path>
+          </svg>
+        </div>
+      </div>
+      <!-- Search Section
+      <div class="input-group animated slideInLeft">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span>
+                <svg height="18px" version="1.1" viewBox="0 0 18 18" width="18px" x="0px" y="0px" class="svg-nav_search">
+                  <path clip-rule="evenodd" d="M16.707,15.293l-1.414,1.414l-4.825-4.825C9.487,12.58,8.295,13,7,13c-3.313,0-6-2.687-6-6s2.687-6,6-6s6,2.687,6,6c0,1.295-0.42,2.487-1.118,3.468L16.707,15.293z M7,3C4.791,3,3,4.791,3,7s1.791,4,4,4s4-1.791,4-4S9.209,3,7,3z" fill-rule="evenodd"></path>
+                </svg>
+              </span>
+            </button>
+          </span>
+          <input type="text" class="form-control" placeholder="Search">
+      </div>
+      -->
+      <!-- Button Section -->
+      <div id = "buttonGroup" class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group btn-group-lg animated flipInX" role="group">
+          <button id = "all" type="button" class="btn btn-default">all</button>
+        </div>
+        <div class="btn-group btn-group-lg animated flipInY"role="group">
+          <button id = "online" type="button" class="btn btn-default">online</button>
+        </div>
+        <div class="btn-group btn-group-lg animated flipInX" role="group ">
+          <button id = "offline" type="button" class="btn btn-default">offline</button>
+        </div>
+      </div>
+      <!-- Display Section -->
+      <div id = "displaySection" style = "padding: 0px !important;" class = "container-fluid">
+
+      </div>
+    </div>
+  </div>
+</body>

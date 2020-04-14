@@ -1,0 +1,48 @@
+$bgce: #444;
+
+footer{
+  padding-top: 20px!important;
+  background: $bgce;
+}
+.footer-bottom{
+  padding: 5em 0em 5em 0em !important;
+  width: 100vw;
+  bottom: 0;
+  position: relative !important;
+
+}
+.footer-text{
+  font-family: 'Freight sans sc', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  opacity: .85;
+}
+.footer-text-none{
+  font-family: 'Freight sans sc', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  opacity: .85;
+}
+.footer-text:hover{
+  opacity: 1;
+  text-decoration: none;
+}
+.social-media{
+  display: inline-block !important;
+  margin: 3em 1em 0em 1em !important;
+}
+.social-media.icon{
+  margin: 0em 1.2em 0em 1.2em !important;
+}
+.inner{
+  display: inline-block !important;
+  margin: 0px 5px 0px 5px;
+  color: #FFF !important;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .social-media.icon{
+    margin: 0px;
+  }
+}

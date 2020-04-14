@@ -1,0 +1,27 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "A FCC Leaderboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "author": "Nick Sladic",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.9.1",
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "http-server": "^0.10.0",
+    "node-sass-chokidar": "0.0.3",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-router": "^2.6.0",
+    "webpack": "^2.0.0"
+  }
+}

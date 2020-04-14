@@ -1,0 +1,211 @@
+body{
+  font-family: sans-serif;
+  background: #323232 !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #323232 , ##232323) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #323232, #232323) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #323232, #232323) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #323232 , #232323) !important; /* Standard syntax (must be last) */
+  -webkit-font-smoothing: antialiased;
+}
+h3{
+  margin: 0px;
+}
+
+.container{
+  text-align: center;
+  margin: 150px auto auto auto;
+}
+.wrapper{
+  height: 650px;
+  width: 650px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 0;
+}
+.center{
+  position: absolute;
+  background: white;
+  height: 300px;
+  width: 300px;
+  left: 0;
+  right: 0;
+  bottom: 440px;
+  margin: auto;
+  border-radius: 50%;
+  border-style: solid;
+  color: #000000;
+  z-index: 2;
+}
+.title{
+  height: 40px;
+  width: 175px;
+  font-size: 28pt;
+  font-weight: 800;
+  margin: auto;
+}
+.inputButtons{
+  height: 60px;
+  width: 225px;
+  margin: 5px 0px 5px 0px;
+  display: inline-flex;
+}
+.inputButtons > h4{
+  order: 0;
+  margin: auto 50px auto 25px;
+  padding: 5px 0px 5px 0px;
+  width: 60px;
+  border-radius: 15%;
+  background: black;
+  font-size: 26pt;
+}
+#counter{
+  color: #4C0000;
+}
+.inputButtons > button{
+  order: 1;
+  background: yellow;
+  height: 50px;
+  width:50px;
+  margin: auto 15px auto 15px;
+  border: 4px solid black;
+  border-radius: 100%;
+  font-size: 9pt;
+  font-weight: 800;
+  cursor: pointer;
+}
+.inputButtons > button:hover{
+  background: white;
+}
+.inputButtons > button:focus{
+  outline: 0;
+}
+.initButton{
+  height: 30px;
+  width: 200px;
+  margin: auto;
+}
+.initTitles{
+  margin: 5px auto;
+  display: flex;
+  width: 120px;
+  height: 35px;
+}
+.off{
+  order: 0;
+  margin: 0px 0px 0px 5px;
+}
+.on{
+  margin: 0px 0px 0px 70px;
+  order: 1
+
+}
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+}
+.switch input{
+  display: none;
+}
+.slider{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(91px);
+  -ms-transform: translateX(91px);
+  transform: translateX(91px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*---------------------*/
+
+.buttonArea{
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px 0px 0px 0px;
+  height: 615px;
+  width: 615px;
+  z-index: 1;
+  border-radius: 100%;
+  background: black
+}
+.quad{
+  height: 300px;
+  width:  300px;
+  margin: 0;
+}
+.buttonArea > button{
+  padding: 0;
+  margin: 0;
+  border: 22px solid black;
+  outline: 0;
+  cursor: pointer;
+}
+.buttonArea > button:hover {background-color: #3e8e41}
+
+.buttonArea > button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+.light{
+  opacity: 1 !important;
+}
+#topLeft{
+  opacity: .6;
+  border-radius: 100% 0 0 0;
+  background: green;
+}
+#topRight{
+  opacity: .6;
+  border-radius: 0 100% 0 0;
+  background: red;
+}
+#bottomRight{
+  opacity: .6;
+  border-radius: 0 0 100% 0;
+  background: blue;
+}
+#bottomLeft{
+  opacity: .6;
+  border-radius: 0 0 0 100%;
+  background: yellow;
+}

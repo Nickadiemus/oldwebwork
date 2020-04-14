@@ -1,0 +1,95 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  background: #fddddd !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #fddddd , #f4cdcd) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fddddd, #f4cdcd) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fddddd, #f4cdcd) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fddddd , #f4cdcd) !important; /* Standard syntax (must be last) */
+  -webkit-font-smoothing: antialiased;
+}
+p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.jumbotron{
+  background-color: inherit !important;
+}
+.wrapper{
+  margin: 150px;
+}
+
+.box1{
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 405px;
+  width:  305px;
+  border-radius: 45px;
+  box-shadow: -2px 2px 5px black;
+  background: #eeeeee !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #eeeeee , #d9d9d9) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #eeeeee, #d9d9d9) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #eeeeee, #d9d9d9) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #eeeeee , #d9d9d9) !important; /* Standard syntax (must be last) */
+  z-index: 0;
+}
+.box2{
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  border-radius: 45px;
+  box-shadow: -2px 2px 5px black;
+  box-shadow: 2px 2px 5px black;
+  background: #eeeeee !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #eeeeee , #d9d9d9) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #eeeeee, #d9d9d9) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #eeeeee, #d9d9d9) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #eeeeee , #d9d9d9) !important; /* Standard syntax (must be last) */
+  z-index: 1;
+}
+.display{
+  background-color: #818181;
+  margin: 25px 15px 25px 15px;
+  padding: 2px;
+  border-radius: 15px;
+}
+.display-text{
+  padding-right: 25px;
+}
+.zeroButton{
+  height: 50px;
+  width: 124px;
+}
+.equalButton{
+  position: absolute;
+  height: 100px;
+  width: 60px;
+  margin-left: -60px;
+  margin-top: -50px;
+}
+#buttons{
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  height: auto;
+  margin: 15px 0px 15px 0px;
+
+}
+button{
+  text-decoration: none !important
+  align-items: flex-start;
+  letter-spacing: normal;
+  word-spacing: normal;
+  padding: 2px 6px 3px!important;
+  font-size: 18pt !important;
+  height: 50px;
+  width: 60px;
+  border-radius: 5px;
+}

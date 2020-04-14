@@ -1,0 +1,30 @@
+{
+  "name": "foojitask2",
+  "version": "1.0.0",
+  "description": "A Basic mash up of a API that contains a TODO item and will be able to create, delete, fetch, and concatinate with out fetch objs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.2",
+    "nodemon": "^1.11.0"
+  },
+  "author": "Nick SLadic",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickadiemus/foojiTask2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nickadiemus/foojiTask2/issues"
+  },
+  "homepage": "https://github.com/Nickadiemus/foojiTask2#readme"
+}

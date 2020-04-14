@@ -1,0 +1,27 @@
+//bacground start for about section
+$bgas: #E0EAFC;
+//backgorund end for about section
+$bgae: #E0EAFC;
+
+.aboutsubhead{
+  padding: 0em .3em 0em .3em !important;
+  background: $bgas !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $bgas , $bgae) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $bgas, $bgae) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $bgas, $bgae) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $bgas , $bgae) !important; /* Standard syntax (must be last) */
+}
+
+.aboutTeam{
+  position: relative;
+  padding: 0em .3em 15em .3em !important;
+  background: $bgas !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $bgas , $bgae) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $bgas, $bgae) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $bgas, $bgae) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $bgas , $bgae) !important; /* Standard syntax (must be last) */
+}
+
+.customContainer.about{
+  padding: 4.5em .5em 0em .5em;
+}

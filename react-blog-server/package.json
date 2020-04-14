@@ -1,0 +1,32 @@
+{
+  "name": "awesome-inc-task-server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node -- src/index.js",
+    "test": "echo \"Error: no text specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "bookshelf": "^0.10.4",
+    "jsonwebtoken": "^7.4.1",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.4",
+    "pg": "^7.0.2",
+    "shortid": "^2.2.8",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "bcrypt": "^1.0.2",
+    "bookshelf": "^0.10.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "nodemon": "^1.11.0"
+  }
+}

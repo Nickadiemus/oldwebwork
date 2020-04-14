@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src = "js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="buttonArea  ">
+          <button class = "quad"id="topLeft"type="button" name="button" data-tile = 1></button>
+          <button class = "quad"id="topRight"type="button" name="button" data-tile = 2></button>
+          <button class = "quad"id="bottomLeft"type="button" name="button" data-tile = 3></button>
+          <button class = "quad"id="bottomRight"type="button" name="button" data-tile = 4></button>
+
+        </div>
+        <div class="center">
+          <div class="title">
+            <p id = "n">Simon</p>
+          </div>
+          <div class="inputButtons">
+              <h4 id ="counter" class = "counter">00</h4>
+              <button id="start"type="button" name="Start">Start</button>
+          </div>
+          <div class="initButton">
+            <label class = "switch">
+              <input id = "init" type="checkbox">
+              <div class="slider round"></div>
+            </label>
+          </div>
+          <div class="initTitles">
+              <p class = "off">Off</p>
+              <p class = "on">On</p>
+          </div>
+        </div>
+      </div>
+      <div id = "sound"></div>
+
+    </div>
+  </body>
+</html>

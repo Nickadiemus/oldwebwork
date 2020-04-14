@@ -1,0 +1,13 @@
+.form-wrapper{
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+}
+
+.header{
+  margin-bottom: 35px !important;
+}
+
+textarea{
+  height: 150px !important;
+}

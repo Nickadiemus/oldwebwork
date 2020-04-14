@@ -1,0 +1,28 @@
+body{
+  background: #100cc1 !important;
+}
+.input-group{
+  color: #fbfbfb !important;
+  border-radius: 20px;
+}
+.snapToTop{
+  padding-top: 2vh !important;
+}
+.mainContainer{
+  padding-top: 40vh !important;
+  padding-bottom: 60vh!important;
+  margin: auto !important;
+}
+.link-tags{
+  text-decoration: none !important;
+}
+.row{
+  background: white !important;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  padding: 50px !important;
+  margin: 100px 100px 100px 100px !important;
+}
+.row-span{
+  color: #333 !important;
+}

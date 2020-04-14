@@ -1,0 +1,44 @@
+Author: Nick Sladic
+Date: 3/30/17
+Basic list API
+Frameworks used: node.js, express.js, mongodb.js, nodemon.js, ES6, MLAB
+API Programming Tool used: Postman --> https://www.getpostman.com/
+
+Description:
+  This simple API program allows basic CRUD operations on a MLAB database set up
+  by myself. To use the API the user must have the following packages installed
+  1) Node.js
+  2) Express.js
+  3) mongodb
+  4) Nodemon.js
+  5) body-parser
+  For my testing environment I used a free database provided by MongoDB. I connected
+  my MongoClient to the url of to communicate data with the API. A config file was
+  created to authorize access to my database but I just created a basic user account
+  that gives access to the database in the serve.js file. I just gitignore my local
+  config file for my local repository.
+
+Setting up:
+  Step 1) Install Node.js --> https://nodejs.org/
+
+  Step 2) Change to Basic-REST-API
+
+  Step 3) Install the required packages: npm install --save express mongodb body-parser nodemon
+
+  Step 4) Launch Server with the command --> npm run dev
+
+  Step 5) Use any CRUD operations with any 3rd party API requesting application. I used personally
+  used POSTMAN (Link provided in Header)
+
+Syntax for API calls: localhost:3000/api/
+
+  URL Call Requests:
+    GET:
+      a. Find Todo item by ID --> localhost:3000/api/id/<Item's unique ID>
+      b. List all items of the collection from a list --> localhost:3000/api/group
+    POST:
+      a. Send a Todo Item to the database --> localhost:3000/api/add/<item name>
+    DELETE:
+      a. Delete an Todo Item by ID --> localhost:3000/api/delete/<Item's unique ID>
+    PATCH:
+      a. Update a current Todo Item in the Collection --> localhost:3000/api/update/<Item's unique ID>/<new item name>

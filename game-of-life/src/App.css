@@ -1,0 +1,77 @@
+body {
+  background-color: rgba(0, 0, 0, 0.85); }
+
+table {
+  border: 1px solid #000; }
+
+tr {
+  border: -1px solid #000; }
+
+button {
+  outline: 0;
+  border: none; }
+
+button:hover {
+  background-color: red; }
+
+td {
+  margin: 0 !important;
+  padding: 0; }
+
+.cell {
+  background-color: #000;
+  width: .9em;
+  height: .9em;
+  padding: inherit;
+  margin: inherit;
+  opacity: .9; }
+
+.on {
+  background-color: red !important; }
+
+.table {
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 4pt; }
+
+.Generations {
+  margin: 5px auto 5px auto; }
+
+.SPC > button {
+  width: 9em;
+  height: 3em;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 10pt;
+  margin: 5px; }
+
+.SPC > button:hover {
+  background-color: grey; }
+
+.topWrapper {
+  margin: 4.5em 0em 1em 0em; }
+
+.topInputBox {
+  height: 5em;
+  width: 35em;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #000;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.bottomInputBox {
+  height: 6.5em;
+  width: 35em;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #000;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.text-center {
+  text-align: center; }

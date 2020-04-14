@@ -1,0 +1,239 @@
+/*******************************************/
+/*            Global Styling               */
+/*******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+@-webkit-keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+@-moz-keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+
+a {
+	outline-color: none !important; 
+	text-decoration: none !important;
+	text-decoration-style: solid;
+}
+
+button {
+  outline: none;
+	font-size: 6pt !important;
+}
+
+.carousel-caption{
+	padding: 0px
+}
+
+.fade-in{
+	opacity: 0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation: fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+.fade-in.one{
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+.fade-in.two{
+	-webkit-animation-delay:.5s;
+	-moz-animation-delay:.5s;
+	animation-delay: .5s;
+}
+
+.fade-in.three{
+	-webkit-animation-delay: .7s;
+	-moz-animation-delay: .7s;
+	animation-delay: .7s;
+}
+.fade-in.four{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
+.fade-in.five{
+	-webkit-animation-delay:1.3s;
+	-moz-animation-delay:1.3s;
+	animation-delay: 1.3s;
+}
+
+
+.areaHeader{
+	margin: 55px 0px 0px 0px !important;
+}
+
+.button-custom{
+	background-image: -webkit-linear-gradient(top,#ffffff 0,#f9f9f9 100%);
+	color: #000;
+}
+.button-custom:hover{
+	text-shadow: 0px 1px 0px #000;
+	cursor: pointer;
+	border: black;
+}
+.button-custom-vote{
+	background-image: -webkit-linear-gradient(top,#ffffff 0,#f9f9f9 100%);
+	color: #000;
+}
+.button-custom-vote:hover{
+	text-shadow: 0px 1px 0px #000;
+	cursor: pointer;
+	border: black;
+}
+
+.carousel-caption{
+	padding-bottom: 4% !important;
+}
+
+.container-fluid{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.nav-link{
+	font-weight: 600 !important;
+	font-size: 18pt !important;
+	color: #000 !important;
+}
+.nav-link:hover{
+	color: #444444 !important;
+	text-shadow: 0px 3px 3px grey;
+}
+
+
+.seperator{
+  margin: 25px 0px 25px 0px;
+}
+
+/*******************************************/
+/*            Home Styling                 */
+/*******************************************/
+
+@media only screen and (max-width: 1920px) and (min-width: 813px){
+  .navbar-padding{
+    margin-right: 12vw !important;
+  }
+  .navbar{
+    height: 12vh !important;
+  }
+	button {
+	  outline: none;
+		font-size: 22pt !important;
+	}
+	.carousel-caption{
+		padding-bottom: 10% !important;
+	}
+}
+
+#splashPicture {
+  width: 100vw !important;
+  height: 80vh !important;
+}
+
+/*******************************************/
+/*            Plateform Styling            */
+/*******************************************/
+
+.statementBox > h1{
+	color: black;
+}
+
+.statementBox{
+	margin: 0px 0px 55px 0px !important;
+  background-image: -webkit-linear-gradient(top,#08063e 0,#040234 100%);
+	color: white
+}
+.statementBody{
+	padding: 0px 0px 55px 0px !important;
+}
+
+.statement {
+	text-align: justify;
+}
+
+.btn-color{
+	background-image: -webkit-linear-gradient(top,#ffffff 0,#f0f0f0 100%);
+	margin: 0px 0px 25px 0px !important;
+}
+
+/*******************************************/
+/*            Team Members Styling       	 */
+/*******************************************/
+
+.bioStatement{
+	/* height: 500px !important; */
+	text-align: justify;
+}
+
+/*******************************************/
+/*            Footer Styling            	 */
+/*******************************************/
+
+.footer-color{
+	background-image: -webkit-linear-gradient(top,#08063e 0,#040234 100%);
+}
+
+.waterMark{
+	font-size: 10pt;
+}
+
+.waterMarkLink{
+	text-decoration: none !important;
+	color: white;
+}
+.waterMarkLink > a:hover{
+	color: white !important;
+}
+
+/*******************************************/
+/*            Contact Styling            	 */
+/*******************************************/
+#x{
+	padding: 15px;
+	right: 0px;
+	font-size: 30pt;
+	cursor: pointer;
+
+}
+
+.menu-tab{
+	width: 100vw;
+	height: 300px;
+	position: fixed;
+  z-index: 100;
+  top: 0px;
+  right: -100vw;
+  cursor: pointer;
+  transition: all .6s ease-in-out;
+}
+
+.menu-tab.active{
+  right: 0px;
+  transition: all 600ms ease-in-out;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.menu-hide.show{
+  right: -345px;
+  background-color: rgba(255,255,255,0.9);
+  transition: all .6s ease-in-out;
+}
+
+/*******************************************/
+/*            Social Styling            	 */
+/*******************************************/
+
+.social{
+	margin: 20px 0px 0px 0px;
+}
+.social-icons-contact{
+	padding: 0px 10px 0px 10px;
+}

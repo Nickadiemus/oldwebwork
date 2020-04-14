@@ -1,0 +1,50 @@
+body{
+  font-family: sans-serif;
+  background: #14bdac !important; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #14bdac , #14bdab) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #14bdac, #14bdab) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #14bdac, #14bdab) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #14bdac , #14bdab) !important; /* Standard syntax (must be last) */
+  -webkit-font-smoothing: antialiased;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 40pt;
+}
+button:focus{
+  outline: 0;
+}
+td {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    text-align: center;
+}
+
+.wrapper, table {
+    margin: 20px auto;
+}
+
+.header{
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+
+}
+.wrapper{
+  margin: 0;
+
+}

@@ -1,0 +1,82 @@
+/*
+Author: Nick Sladic
+*/
+//background gradient body start
+$bgs: #6441A4;
+//bacground gradient body end
+$bge: #B19DD8;
+//background gradient bacground container start
+$bgse: #DAD8DE;
+//background gradient bacground container start
+$bgce: #FFFFFF;
+//textColor
+$tc: #f0f5fc;
+//sets background color
+body {
+   font-family: 'Muli', sans-serif !important;
+   background: $bgs !important; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, $bgs , $bge) !important; /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(right, $bgs, $bge) !important; /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(right, $bgs, $bge) !important; /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to right, $bgs , $bge) !important; /* Standard syntax (must be last) */
+   height: 100vh;
+}
+
+//|=================================|
+//|           Main Section          |
+//|=================================|
+
+.mainWrapper{
+  margin: 100px 0px 0px 0px;
+  padding: 0px 100px 0px 100px;
+}
+
+//|=================================|
+//|           Title Wrapper         |
+//|=================================|
+
+.headTitle{
+  color: $tc !important;
+  text-shadow: 2px 1px 1px black;
+}
+.headTitle > h2
+{
+  font-size: 4.5rem !important;
+}
+//|=================================|
+//|          Search Section         |
+//|=================================|
+
+.form-control{
+  height: 44px !important;
+}
+//|=================================|
+//|          Button Section         |
+//|=================================|
+
+button{
+  font-weight: 100 !important;
+  font-size: 16pt !important;
+}
+//|=================================|
+//|          Display Section        |
+//|=================================|
+.bodyDisplay{
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 5px;
+  border-radius: 20px;
+  background: white
+}
+.radius{
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.name{
+  font-size: 14pt;
+  padding: 60px 0px 60px 0px;
+}
+.description{
+  padding: 60px 0px 60px 0px;
+}

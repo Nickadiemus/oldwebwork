@@ -1,0 +1,14 @@
+a{
+ cursor: pointer;
+}
+
+.bgRed{
+  background-color: red;
+}
+.bgGreen{
+  background-color: green;
+}
+.TodoItemText{
+  font-size: 16pt;
+  color: #000000;
+}
